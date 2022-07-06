@@ -1,6 +1,6 @@
 Set environment for running iGOLD:
 ----------------------------------
-(1)current iGOLD is designed for linux platform.  
+(1)current iGOLD is designed for ONLY linux platform.  
 (2)The following software is necessary for running iGOLD:  
  		
 		anaconda3  
