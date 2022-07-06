@@ -18,7 +18,7 @@ def read_LDSC_res(fn):
     return(df_res)
 df_res2=pd.read_csv('./enrich_LDSC.results') 
 #check code!
-df_res2=read_LDSC_res('./ori_files/GCST007780.results')
+#df_res2=read_LDSC_res('./ori_files/GCST007780.results')
 
 #df_res2=pd.concat([df_res2,df_res3],axis=0)
 
