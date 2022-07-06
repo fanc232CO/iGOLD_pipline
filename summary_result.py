@@ -16,7 +16,8 @@ def read_LDSC_res(fn):
     df_res['Mod']=[str(x).split('_')[0].split('L2')[0] for x in df_res.Category]
     df_res['logP_ldsc']=df_res.Enrichment_p.apply(lambda x:-np.log10(x))
     return(df_res)
-df_res2=pd.read_csv('./enrich_LDSC.results') 
+#df_res2=pd.read_csv('./enrich_LDSC.results')
+df_res2=read_LDSC_res('./enrich_LDSC.results')
 #check code!
 #df_res2=read_LDSC_res('./ori_files/GCST007780.results')
 
