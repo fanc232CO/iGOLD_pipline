@@ -45,5 +45,7 @@ The first output example is the file named "enrich_result.csv", there are five c
 (3)"logP_DEG" is the -log10(P-value) of disease associated SNPs enrichment by genome location, where P-value is calculated by one-tailed Chi-square test;  
 (4)"logP_ldsc" is the -log10(P-value) of disease associated SNPs enrichment by LDSC analysis;  
 (5)"logP_sum" is the sum of the above three -log10 transferred P-values.Higher value of the "logP_sum" represents an higher association between the module and the disease.    
+
 The second output example is the file named "DEG_in_module.xlsx", which contained the information of overlapped genes between user-submitted differential expressed genes and the "interesting" module.
+
 The third output example is the file named "disease_associated_genes_in_module.xlsx", which contained the information of overlapped genes between user-submitted disease related genes and the "interesting" module.
