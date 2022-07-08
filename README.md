@@ -30,10 +30,12 @@ Running iGOLD:
 	
 		bash ./iGOLD_pipline.sh <gene_input> <SNP_input>
 	
-where <gene_input> and <SNP_input> is the input files you prepared of disease related genes and GWAS result, respectively. If everything went well, you've got the output file named "enrich_result.csv"  
+where <gene_input> and <SNP_input> is the input files you prepared of disease related genes and GWAS result, respectively. If everything went well, you'll get the output file named "enrich_result.csv"  
 (5)To gain further information of the "interesting" module, run:
 
-		<run_anaconda3>  
+		<run_anaconda3> ./further_info.py <DEG_input> <gene_input>
+		
+where <run_anaconda3> is the path of executable script of python3 in your anaconda environment built for LDSC installation, <DEG_input> is the prepared input file of differential expressed genes between disease group and healthy control, <gene_input> is the prepared input files of disease related genes. If everything went well, you'll get two output files respectively named "DEG_in_module.xlsx" and "disease_associated_genes_in_module.xlsx". 
 
 The output:
 -----------
